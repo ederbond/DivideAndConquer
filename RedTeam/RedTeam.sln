@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VelocityBot", "VelocityBot\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Walls", "Walls\Walls.csproj", "{BAF99DA7-0392-03F5-AD78-98CA883F9000}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedLeader", "MyFirstLeader\RedLeader.csproj", "{FCF0C918-38D6-BE90-63B6-92697A6B46C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedLeader", "RedLeader\RedLeader.csproj", "{D5F3AB00-C543-9D58-385B-C042CC7758B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,10 +83,10 @@ Global
 		{BAF99DA7-0392-03F5-AD78-98CA883F9000}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAF99DA7-0392-03F5-AD78-98CA883F9000}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BAF99DA7-0392-03F5-AD78-98CA883F9000}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FCF0C918-38D6-BE90-63B6-92697A6B46C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FCF0C918-38D6-BE90-63B6-92697A6B46C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FCF0C918-38D6-BE90-63B6-92697A6B46C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FCF0C918-38D6-BE90-63B6-92697A6B46C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5F3AB00-C543-9D58-385B-C042CC7758B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5F3AB00-C543-9D58-385B-C042CC7758B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5F3AB00-C543-9D58-385B-C042CC7758B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5F3AB00-C543-9D58-385B-C042CC7758B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

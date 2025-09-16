@@ -1,5 +1,5 @@
 {
-  "name": "MyFirstTeam",
+  "name": "Red Team",
   "version": "1.0",
   "authors": [
     "Mathew Nelson",
@@ -8,11 +8,10 @@
   "description": "A sample team.\nMyFirstLeader scans for enemies,\nand orders the droids to fire.",
   "homepage": "",
   "countryCodes": [
-    "us",
-    "dk"
+    "us"
   ],
   "teamMembers": [
-    "MyFirstLeader",
+    "RedLeader",
     "MyFirstDroid",
     "MyFirstDroid",
     "MyFirstDroid",

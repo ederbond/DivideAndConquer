@@ -35,7 +35,7 @@ public class DCLeader : Bot
         };
 
         // Set the color of this robot containing the robot colors
-        BodyColor = Color.Coral;
+        BodyColor = colors.BodyColor;
         TracksColor = colors.TracksColor;
         TurretColor = colors.TurretColor;
         GunColor = colors.GunColor;

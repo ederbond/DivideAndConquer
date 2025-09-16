@@ -60,7 +60,6 @@ public class DCDroid : Bot, Droid
 
             // Read and set the robot colors
             var colors = (RobotColors) message;
-
             BodyColor = colors.BodyColor;
             TracksColor = colors.TracksColor;
             TurretColor = colors.TurretColor;
