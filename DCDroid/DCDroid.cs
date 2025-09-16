@@ -23,7 +23,28 @@ public class DCDroid : Bot, Droid
     // Called when a new round is started -> just print out that the bot is ready
     public override void Run()
     {
-        Console.WriteLine("MyFirstDroid ready");
+        Console.WriteLine("DCDroid ready");
+
+        var colors = new RobotColors
+        {
+            BodyColor = Color.Purple,
+            TracksColor = Color.Yellow,
+            TurretColor = Color.Purple,
+            GunColor = Color.DarkOrchid,
+            RadarColor = Color.Purple,
+            ScanColor = Color.LightPink,
+            BulletColor = Color.LightYellow
+        };
+
+        // Set the color of this robot containing the robot colors
+        BodyColor = colors.BodyColor;
+        TracksColor = colors.TracksColor;
+        TurretColor = colors.TurretColor;
+        GunColor = colors.GunColor;
+        RadarColor = colors.RadarColor;
+        ScanColor = colors.ScanColor;
+        BulletColor = colors.BulletColor;
+
 
         while (IsRunning)
         {
