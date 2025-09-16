@@ -1,0 +1,24 @@
+{
+  "name": "DivideAndConquer",
+  "version": "1.0",
+  "authors": [
+    "Preston",
+    "Eder",
+	  "Chris",
+	  "Katrina",
+	  "Riyaz",
+	  "Erveranildo"
+  ],
+  "description": "American Innovations R&D Hackathon team Divide and Conquer",
+  "homepage": "",
+  "countryCodes": [
+    "us"
+  ],
+  "teamMembers": [
+    "MyFirstLeader",
+    "MyFirstDroid",
+    "MyFirstDroid",
+    "MyFirstDroid",
+    "MyFirstDroid"
+  ]
+}
