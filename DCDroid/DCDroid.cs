@@ -1,7 +1,8 @@
 using System;
+using DC.Common;
 using Robocode.TankRoyale.BotApi;
 using Robocode.TankRoyale.BotApi.Events;
-using Robocode.TankRoyale.BotApi.Graphics;
+
 namespace DivideAndConquer;
 
 // ------------------------------------------------------------------
@@ -23,7 +24,7 @@ public class DCDroid : Bot, Droid
     // Called when a new round is started -> just print out that the bot is ready
     public override void Run()
     {
-        Console.WriteLine("MyFirstDroid ready");
+        Console.WriteLine("DC Droid ready");
 
         while (IsRunning)
         {
@@ -69,22 +70,5 @@ public class DCDroid : Bot, Droid
             ScanColor = colors.ScanColor;
             BulletColor = colors.BulletColor;
         }
-    }
-}
-
-// ------------------------------------------------------------------
-// Communication objects for team messages
-// ------------------------------------------------------------------
-
-// Point (x,y) class
-class Point
-{
-    public double X { get; set; }
-    public double Y { get; set; }
-
-    public Point(double x, double y)
-    {
-        X = x;
-        Y = y;
     }
 }

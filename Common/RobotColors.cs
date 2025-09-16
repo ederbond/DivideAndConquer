@@ -1,6 +1,6 @@
-﻿using System.Drawing;
-using Robocode.TankRoyale.BotApi.Graphics;
-using Color = Robocode.TankRoyale.BotApi.Graphics.Color;
+﻿using Color = Robocode.TankRoyale.BotApi.Graphics.Color;
+
+namespace DC.Common;
 
 public class RobotColors
 {

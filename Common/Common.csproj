@@ -3,7 +3,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <RootNamespace>DivideAndConquer.Common</RootNamespace>
+    <RootNamespace>DC.Common</RootNamespace>
   </PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Robocode.TankRoyale.BotApi" Version="0.33.1" />

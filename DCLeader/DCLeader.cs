@@ -1,7 +1,10 @@
 using System;
+using DC.Common;
 using Robocode.TankRoyale.BotApi;
 using Robocode.TankRoyale.BotApi.Events;
 using Robocode.TankRoyale.BotApi.Graphics;
+using Point = Robocode.TankRoyale.BotApi.Graphics.Point;
+
 namespace DivideAndConquer;
 // ------------------------------------------------------------------
 // DCLeader
@@ -83,22 +86,3 @@ public class DCLeader : Bot
         TurnLeft(90 - bulletBearing);
     }
 }
-
-// ------------------------------------------------------------------
-// Communication objects for team messages
-// ------------------------------------------------------------------
-
-// Point (x,y) class
-class Point
-{
-    public double X { get; set; }
-    public double Y { get; set; }
-
-    public Point(double x, double y)
-    {
-        X = x;
-        Y = y;
-    }
-}
-
-// Robot colors
