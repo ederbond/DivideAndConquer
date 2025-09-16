@@ -3,6 +3,7 @@
         <RootNamespace>Corners</RootNamespace>
         <OutputType>Exe</OutputType>
         <TargetFramework>net9.0</TargetFramework>
+        <LangVersion>13</LangVersion>
 	    <OutputPath>..\Output\</OutputPath>
 	</PropertyGroup>
     <ItemGroup>
