@@ -3,7 +3,7 @@
         <RootNamespace>Corners</RootNamespace>
         <OutputType>Exe</OutputType>
         <TargetFramework>net9.0</TargetFramework>
-	    <OutputPath>..\MyCustomOutput\</OutputPath>
+	    <OutputPath>..\Output\</OutputPath>
 	</PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Robocode.TankRoyale.BotApi" Version="0.33.1" />
