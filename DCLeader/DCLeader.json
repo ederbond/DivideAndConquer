@@ -1,15 +1,13 @@
 {
-  "name": "My First Leader",
+  "name": "DCLeader",
   "version": "1.0",
   "authors": [
-    "Mathew Nelson",
-    "Flemming N. Larsen"
+    "Divide And Conquer"
   ],
-  "description": "Member of the MyFirstTeam\nLooks around for enemies, and orders teammates to fire.",
+  "description": "Divide And Conquer Team",
   "homepage": "",
   "countryCodes": [
-    "us",
-    "dk"
+    "us"
   ],
   "platform": ".Net 9.0",
   "programmingLang": "C# 13.0"

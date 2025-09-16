@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <RootNamespace>MyFirstLeader</RootNamespace>
+        <RootNamespace>DCLeader</RootNamespace>
         <OutputType>Exe</OutputType>
         <TargetFramework>net9.0</TargetFramework>
         <LangVersion>13</LangVersion>

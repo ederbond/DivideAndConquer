@@ -3,6 +3,8 @@ using Robocode.TankRoyale.BotApi;
 using Robocode.TankRoyale.BotApi.Events;
 using Robocode.TankRoyale.BotApi.Graphics;
 
+namespace MyFirstLeader;
+
 // ------------------------------------------------------------------
 // DCLeader
 // ------------------------------------------------------------------
@@ -23,18 +25,19 @@ public class DCLeader : Bot
     public override void Run()
     {
         // Prepare robot colors to send to teammates
-        var colors = new RobotColors();
-        
-        colors.BodyColor = Color.Purple;
-        colors.TracksColor = Color.Yellow;
-        colors.TurretColor = Color.Purple;
-        colors.GunColor = Color.DarkOrchid;
-        colors.RadarColor = Color.Purple;
-        colors.ScanColor = Color.LightPink;
-        colors.BulletColor = Color.LightYellow;
+        var colors = new RobotColors
+        {
+            BodyColor = Color.Purple,
+            TracksColor = Color.Yellow,
+            TurretColor = Color.Purple,
+            GunColor = Color.DarkOrchid,
+            RadarColor = Color.Purple,
+            ScanColor = Color.LightPink,
+            BulletColor = Color.LightYellow
+        };
 
         // Set the color of this robot containing the robot colors
-        BodyColor = colors.BodyColor;
+        BodyColor = Color.Coral;
         TracksColor = colors.TracksColor;
         TurretColor = colors.TurretColor;
         GunColor = colors.GunColor;
