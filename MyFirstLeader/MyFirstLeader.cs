@@ -25,13 +25,13 @@ public class MyFirstLeader : Bot
         // Prepare robot colors to send to teammates
         var colors = new RobotColors();
 
-        colors.BodyColor = Color.Purple;
-        colors.TracksColor = Color.Yellow;
-        colors.TurretColor = Color.Purple;
-        colors.GunColor = Color.DarkOrchid;
-        colors.RadarColor = Color.Purple;
-        colors.ScanColor = Color.LightPink;
-        colors.BulletColor = Color.LightYellow;
+        colors.BodyColor = Color.Red;
+        colors.TracksColor = Color.Cyan;
+        colors.TurretColor = Color.Red;
+        colors.GunColor = Color.Yellow;
+        colors.RadarColor = Color.Red;
+        colors.ScanColor = Color.Yellow;
+        colors.BulletColor = Color.Yellow;
 
         // Set the color of this robot containing the robot colors
         BodyColor = colors.BodyColor;

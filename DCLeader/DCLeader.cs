@@ -24,14 +24,14 @@ public class DCLeader : Bot
     {
         // Prepare robot colors to send to teammates
         var colors = new RobotColors();
-
-        colors.BodyColor = Color.Red;
-        colors.TracksColor = Color.Cyan;
-        colors.TurretColor = Color.Red;
-        colors.GunColor = Color.Yellow;
-        colors.RadarColor = Color.Red;
-        colors.ScanColor = Color.Yellow;
-        colors.BulletColor = Color.Yellow;
+        
+        colors.BodyColor = Color.Purple;
+        colors.TracksColor = Color.Yellow;
+        colors.TurretColor = Color.Purple;
+        colors.GunColor = Color.DarkOrchid;
+        colors.RadarColor = Color.Purple;
+        colors.ScanColor = Color.LightPink;
+        colors.BulletColor = Color.LightYellow;
 
         // Set the color of this robot containing the robot colors
         BodyColor = colors.BodyColor;
@@ -41,7 +41,7 @@ public class DCLeader : Bot
         RadarColor = colors.RadarColor;
         ScanColor = colors.ScanColor;
         BulletColor = colors.BulletColor;
-
+        
         // Send RobotColors object to every member in the team
         BroadcastTeamMessage(colors);
 
