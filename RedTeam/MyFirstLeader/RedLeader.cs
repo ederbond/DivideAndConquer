@@ -11,12 +11,12 @@ using Robocode.TankRoyale.BotApi.Graphics;
 // Member of the MyFirstTeam. Looks around for enemies, and orders
 // teammates to fire.
 // ------------------------------------------------------------------
-public class MyFirstLeader : Bot
+public class RedLeader : Bot
 {
     // The main method starts our bot
     static void Main(string[] args)
     {
-        new MyFirstLeader().Start();
+        new RedLeader().Start();
     }
 
     // Called when a new round is started -> initialize and do some movement
@@ -25,13 +25,13 @@ public class MyFirstLeader : Bot
         // Prepare robot colors to send to teammates
         var colors = new RobotColors();
 
-        colors.BodyColor = Color.Red;
-        colors.TracksColor = Color.Cyan;
+        colors.BodyColor = Color.DarkRed;
+        colors.TracksColor = Color.Red;
         colors.TurretColor = Color.Red;
-        colors.GunColor = Color.Yellow;
-        colors.RadarColor = Color.Red;
-        colors.ScanColor = Color.Yellow;
-        colors.BulletColor = Color.Yellow;
+        colors.GunColor = Color.DarkRed;
+        colors.RadarColor = Color.LightGreen;
+        colors.ScanColor = Color.LightYellow;
+        colors.BulletColor = Color.Red;
 
         // Set the color of this robot containing the robot colors
         BodyColor = colors.BodyColor;

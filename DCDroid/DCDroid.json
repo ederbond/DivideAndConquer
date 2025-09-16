@@ -1,0 +1,14 @@
+{
+  "name": "DC Droid",
+  "version": "1.0",
+  "authors": [
+    "Divide and Conquer"
+  ],
+  "description": "This is a droid bot meaning that is has more energy, but no radar.\nMember of the MyFirstTeam\nFollows orders of team leader.",
+  "homepage": "",
+  "countryCodes": [
+    "us"
+  ],
+  "platform": ".Net 9.0",
+  "programmingLang": "C# 13.0"
+}

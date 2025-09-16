@@ -1,0 +1,14 @@
+{
+  "name": "Red Team Leader",
+  "version": "1.0",
+  "authors": [
+    "Preston"
+  ],
+  "description": "Red Team Leader",
+  "homepage": "",
+  "countryCodes": [
+    "us"
+  ],
+  "platform": ".Net 9.0",
+  "programmingLang": "C# 13.0"
+}

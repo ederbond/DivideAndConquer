@@ -1,0 +1,19 @@
+{
+  "name": "Divide and Conquer",
+  "version": "1.0",
+  "authors": [
+    "Divide and Conquer"
+  ],
+  "description": "A sample team.\nMyFirstLeader scans for enemies,\nand orders the droids to fire.",
+  "homepage": "",
+  "countryCodes": [
+    "us"
+  ],
+  "teamMembers": [
+    "DCLeader",
+    "DCDroid",
+    "DCDroid",
+    "DCDroid",
+    "DCDroid"
+  ]
+}

@@ -2,9 +2,7 @@ using System;
 using Robocode.TankRoyale.BotApi;
 using Robocode.TankRoyale.BotApi.Events;
 using Robocode.TankRoyale.BotApi.Graphics;
-
-namespace MyFirstLeader;
-
+namespace DivideAndConquer;
 // ------------------------------------------------------------------
 // DCLeader
 // ------------------------------------------------------------------
@@ -104,13 +102,3 @@ class Point
 }
 
 // Robot colors
-class RobotColors
-{
-    public Color BodyColor { get; set; }
-    public Color TracksColor { get; set; }
-    public Color TurretColor { get; set; }
-    public Color GunColor { get; set; }
-    public Color RadarColor { get; set; }
-    public Color ScanColor { get; set; }
-    public Color BulletColor { get; set; }
-}
